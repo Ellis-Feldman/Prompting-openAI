@@ -4,7 +4,7 @@ import os
 import csv
 import random
 
-userKey = "sk-None-NnH8o9ef3CO07qmwibo5T3BlbkFJ7yyMDUEoEkEvjcI8Ent2"
+userKey = USERKEY
 NUMOFQUESTIONS = 1000
 fields = ['Math Question', 'Chat GPT Answer(str)', 'Chat GPT Answer(int)', 'Correct Answer', 'Was it correct?', 'Was it prompted?']
 filename = 'chatbotOutput.csv'
